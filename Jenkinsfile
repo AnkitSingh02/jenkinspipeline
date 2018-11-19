@@ -2,8 +2,8 @@ pipeline {
     agent any
     
     tools{
-            maven 'localMaven'
-            jdk 'localJDK'
+            maven 'System_Maven'
+            jdk 'System_MAC_JDK'
 
     }
     
